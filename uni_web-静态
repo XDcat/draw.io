@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-24T00:53:53.884Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="A8_peWFudzJRKd2VGddR" version="12.2.9" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-11-24T06:11:10.111Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="PGXAuNLHcxr7B2kwPI09" version="12.2.9" type="github" pages="3">
   <diagram id="BgKKAP16g6Pwa8221UJZ" name="1. 整体框架">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -51,10 +51,10 @@
         <mxCell id="ZO6Lz8V5kiltSe4ZtFIE-2" value="联系方式 搜索栏 登陆" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="7QPfcJqmjp7_WRm7H7EJ-1">
           <mxGeometry x="180" y="70" width="730" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="ZO6Lz8V5kiltSe4ZtFIE-3" value="标题" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="7QPfcJqmjp7_WRm7H7EJ-1">
-          <mxGeometry x="250" y="230" width="270" height="180" as="geometry"/>
+        <mxCell id="ZO6Lz8V5kiltSe4ZtFIE-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="7QPfcJqmjp7_WRm7H7EJ-1">
+          <mxGeometry x="250" y="230" width="570" height="220" as="geometry"/>
         </mxCell>
-        <mxCell id="ZO6Lz8V5kiltSe4ZtFIE-4" value="名言" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="7QPfcJqmjp7_WRm7H7EJ-1">
+        <mxCell id="ZO6Lz8V5kiltSe4ZtFIE-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=left;" vertex="1" parent="7QPfcJqmjp7_WRm7H7EJ-1">
           <mxGeometry x="180" y="910" width="730" height="120" as="geometry"/>
         </mxCell>
         <mxCell id="ZO6Lz8V5kiltSe4ZtFIE-5" value="页脚" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="7QPfcJqmjp7_WRm7H7EJ-1">
@@ -287,6 +287,30 @@
         </mxCell>
         <mxCell id="5YB7-lOIWmO_Hu1hvHsv-64" value="剩余 * 人&lt;br style=&quot;font-size: 10px;&quot;&gt;已报名 * 人" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=10;" vertex="1" parent="5YB7-lOIWmO_Hu1hvHsv-57">
           <mxGeometry x="90" y="166" width="80" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="5YB7-lOIWmO_Hu1hvHsv-65" value="Bridge Focus on volunteering" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="7QPfcJqmjp7_WRm7H7EJ-1">
+          <mxGeometry x="210" y="240" width="270" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="5YB7-lOIWmO_Hu1hvHsv-66" value="&lt;font style=&quot;font-size: 20px&quot;&gt;加入我们&lt;br&gt;帮助更多的人&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="7QPfcJqmjp7_WRm7H7EJ-1">
+          <mxGeometry x="259" y="275" width="231" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="5YB7-lOIWmO_Hu1hvHsv-67" value="了解更多" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=13;align=center;" vertex="1" parent="7QPfcJqmjp7_WRm7H7EJ-1">
+          <mxGeometry x="262.5" y="400" width="95" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="5YB7-lOIWmO_Hu1hvHsv-68" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: arial; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;志愿者精神意指一种互助、不求回报的精神，它提倡“互相帮助、助人自助、无私奉献、不求回报”。志愿者凭借自己的双手、头脑、知识、爱心开展各种志愿服务活动，无偿帮助那些需要帮助的人们。&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="7QPfcJqmjp7_WRm7H7EJ-1">
+          <mxGeometry x="259" y="350" width="551" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="5YB7-lOIWmO_Hu1hvHsv-69" value="头像" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;fontSize=20;align=center;" vertex="1" parent="7QPfcJqmjp7_WRm7H7EJ-1">
+          <mxGeometry x="328" y="930" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="5YB7-lOIWmO_Hu1hvHsv-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=20;align=center;" vertex="1" parent="7QPfcJqmjp7_WRm7H7EJ-1">
+          <mxGeometry x="460" y="930" width="290" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="5YB7-lOIWmO_Hu1hvHsv-71" value="名言" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=20;align=center;" vertex="1" parent="7QPfcJqmjp7_WRm7H7EJ-1">
+          <mxGeometry x="460" y="930" width="291" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="5YB7-lOIWmO_Hu1hvHsv-72" value="姓名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="7QPfcJqmjp7_WRm7H7EJ-1">
+          <mxGeometry x="465" y="990" width="70" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
