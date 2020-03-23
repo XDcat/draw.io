@@ -1,132 +1,109 @@
-<mxfile host="app.diagrams.net" modified="2020-03-23T12:18:53.160Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="wioip4OiRcOlMrxMLEm3" version="12.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-23T12:31:43.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="03RyPFQ158kOh0jKGAMG" version="12.8.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="kNOX413JFkgAG07v_gkg-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="kNOX413JFkgAG07v_gkg-11">
+        <mxCell id="kNOX413JFkgAG07v_gkg-66" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=none;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="1060" width="760" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="kNOX413JFkgAG07v_gkg-65" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=none;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="80" width="760" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="kNOX413JFkgAG07v_gkg-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="kNOX413JFkgAG07v_gkg-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="使用训练集的 1080 个特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="80" width="200" height="40" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="使用训练集的 1080 个特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="150" width="410" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-11" target="kNOX413JFkgAG07v_gkg-12">
+        <mxCell id="kNOX413JFkgAG07v_gkg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-11" target="kNOX413JFkgAG07v_gkg-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-11" value="使用 10 重交叉验证，划分 10 组训练集和验证集" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="155" y="182" width="210" height="40" as="geometry" />
+        <mxCell id="kNOX413JFkgAG07v_gkg-11" value="使用 10 重交叉验证，划分 10 组训练集和验证集" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="251" width="410" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-12" target="kNOX413JFkgAG07v_gkg-26">
+        <mxCell id="kNOX413JFkgAG07v_gkg-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-12" target="kNOX413JFkgAG07v_gkg-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-12" value="使用训练集训练模型，并计算每个特征对于模型的重要性" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="155" y="284" width="210" height="40" as="geometry" />
+        <mxCell id="kNOX413JFkgAG07v_gkg-12" value="使用训练集训练模型，并计算每个特征对于模型的重要性" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="352" width="410" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-15" target="kNOX413JFkgAG07v_gkg-17">
+        <mxCell id="kNOX413JFkgAG07v_gkg-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-15" target="kNOX413JFkgAG07v_gkg-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-15" value="排除重要程度最小的特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="487" width="240" height="40" as="geometry" />
+        <mxCell id="kNOX413JFkgAG07v_gkg-15" value="排除重要程度最小的特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="654" width="410" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-17" target="kNOX413JFkgAG07v_gkg-32">
+        <mxCell id="kNOX413JFkgAG07v_gkg-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-17" target="kNOX413JFkgAG07v_gkg-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-17" target="kNOX413JFkgAG07v_gkg-12">
+        <mxCell id="kNOX413JFkgAG07v_gkg-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-17" target="kNOX413JFkgAG07v_gkg-12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="480" y="610" />
-              <mxPoint x="480" y="304" />
+              <mxPoint x="730" y="784" />
+              <mxPoint x="730" y="374" />
+              <mxPoint x="570" y="374" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-17" value="是否只剩下8个特征？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="569" width="160" height="80" as="geometry" />
+        <mxCell id="kNOX413JFkgAG07v_gkg-17" value="是否只剩下8个特征？" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="755" width="410" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-26" target="kNOX413JFkgAG07v_gkg-15">
+        <mxCell id="kNOX413JFkgAG07v_gkg-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-26" target="kNOX413JFkgAG07v_gkg-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-26" value="使用验证集，计算当前个数的特征所对应的准确率" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="385" width="240" height="40" as="geometry" />
+        <mxCell id="kNOX413JFkgAG07v_gkg-26" value="使用验证集，计算当前个数的特征所对应的准确率" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="553" width="410" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-32" target="kNOX413JFkgAG07v_gkg-33">
+        <mxCell id="kNOX413JFkgAG07v_gkg-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-32" target="kNOX413JFkgAG07v_gkg-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-32" value="将每组训练集和测试集所对应的准确率列表（不同的个数对应一个准确率），对不同个数特征进行分组求平均" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="691" width="240" height="40" as="geometry" />
+        <mxCell id="kNOX413JFkgAG07v_gkg-32" value="将每组训练集和测试集所对应的准确率列表（不同的个数对应一个准确率），对不同个数特征进行分组求平均" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="856" width="410" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-33" target="kNOX413JFkgAG07v_gkg-34">
+        <mxCell id="kNOX413JFkgAG07v_gkg-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-33" target="kNOX413JFkgAG07v_gkg-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-33" value="选择平均准确率最高的个数" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="793" width="240" height="40" as="geometry" />
+        <mxCell id="kNOX413JFkgAG07v_gkg-33" value="选择平均准确率最高的个数" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="957" width="410" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-34" target="kNOX413JFkgAG07v_gkg-36">
+        <mxCell id="kNOX413JFkgAG07v_gkg-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-34" target="kNOX413JFkgAG07v_gkg-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-34" value="使用训练集所有数据训练模型，并计算每个特征对于模型的重要性" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="895" width="240" height="40" as="geometry" />
+        <mxCell id="kNOX413JFkgAG07v_gkg-34" value="使用训练集所有数据训练模型，并计算每个特征对于模型的重要性" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1140" width="410" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-36" target="kNOX413JFkgAG07v_gkg-37">
+        <mxCell id="kNOX413JFkgAG07v_gkg-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-36" target="kNOX413JFkgAG07v_gkg-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-36" value="排除重要程度最小的特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="996" width="240" height="40" as="geometry" />
+        <mxCell id="kNOX413JFkgAG07v_gkg-36" value="排除重要程度最小的特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1240" width="410" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-37" target="kNOX413JFkgAG07v_gkg-34">
+        <mxCell id="kNOX413JFkgAG07v_gkg-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-37" target="kNOX413JFkgAG07v_gkg-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kNOX413JFkgAG07v_gkg-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=25;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-37" target="kNOX413JFkgAG07v_gkg-34">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="460" y="1120" />
-              <mxPoint x="460" y="916" />
+              <mxPoint x="730" y="1370" />
+              <mxPoint x="730" y="1169" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNOX413JFkgAG07v_gkg-37" target="kNOX413JFkgAG07v_gkg-49">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="kNOX413JFkgAG07v_gkg-37" value="是否只剩下让平均准确率最高个数的个特征？" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1341" width="410" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-37" value="是否只剩下让平均准确率最高个数的个特征？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="1078" width="160" height="80" as="geometry" />
+        <mxCell id="kNOX413JFkgAG07v_gkg-49" value="最终选择的特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1490" width="410" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-49" value="最终选择的特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="1200" width="240" height="40" as="geometry" />
+        <mxCell id="kNOX413JFkgAG07v_gkg-51" value="使用训练集训练模型，并计算每个特征对于模型的重要性" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="452" width="410" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-51" value="使用训练集训练模型，并计算每个特征对于模型的重要性" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="155" y="284" width="210" height="40" as="geometry" />
+        <mxCell id="kNOX413JFkgAG07v_gkg-67" value="Step 1 确定需要的特征数目" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=25;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="500" y="90" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-52" value="使用训练集的 1080 个特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="135" y="80" width="250" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-53" value="使用 10 重交叉验证，划分 10 组训练集和验证集" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="135" y="182" width="250" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-54" value="使用训练集训练模型，并计算每个特征对于模型的重要性" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="135" y="284" width="250" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-55" value="使用验证集，计算当前个数的特征所对应的准确率" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="135" y="385" width="250" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-56" value="排除重要程度最小的特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="135" y="487" width="250" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-57" value="是否只剩下8个特征？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="569" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-58" value="将每组训练集和测试集所对应的准确率列表（不同的个数对应一个准确率），对不同个数特征进行分组求平均" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="135" y="691" width="250" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-59" value="选择平均准确率最高的个数" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="135" y="793" width="250" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-60" value="使用训练集所有数据训练模型，并计算每个特征对于模型的重要性" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="135" y="895" width="250" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-61" value="排除重要程度最小的特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="135" y="996" width="250" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-62" value="是否只剩下让平均准确率最高个数的个特征？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="1078" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="kNOX413JFkgAG07v_gkg-63" value="最终选择的特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="135" y="1200" width="250" height="50" as="geometry" />
+        <mxCell id="kNOX413JFkgAG07v_gkg-68" value="Step 2 选择特征" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=25;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="565" y="1070" width="190" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
