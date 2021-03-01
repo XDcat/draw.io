@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-01T02:36:10.350Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="5mpUS-HLJL7pqALvuSFD" version="14.2.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-01T02:38:27.374Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="CZHwtKmMy_BZtRCd8ngW" version="14.2.9" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="原版">
     <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -412,7 +412,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CxTyukO_4oZOg1vwgSTn" name="定制-老师">
-    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1178" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="TA1hDpKXvAdj-eUrPTdJ-0" />
         <mxCell id="TA1hDpKXvAdj-eUrPTdJ-1" parent="TA1hDpKXvAdj-eUrPTdJ-0" />
@@ -426,13 +426,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TA1hDpKXvAdj-eUrPTdJ-5" value="计算所有可使用的特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;glass=0;strokeWidth=1;shadow=0;fontFamily=楷体;" parent="TA1hDpKXvAdj-eUrPTdJ-1" vertex="1">
-          <mxGeometry x="160" y="250" width="410" height="57" as="geometry" />
+          <mxGeometry x="150" y="250" width="430" height="57" as="geometry" />
         </mxCell>
         <mxCell id="TA1hDpKXvAdj-eUrPTdJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;fontFamily=楷体;" parent="TA1hDpKXvAdj-eUrPTdJ-1" source="TA1hDpKXvAdj-eUrPTdJ-7" target="TA1hDpKXvAdj-eUrPTdJ-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TA1hDpKXvAdj-eUrPTdJ-7" value="使用&lt;font face=&quot;Times New Roman&quot;&gt;m&lt;/font&gt;重交叉验证，划分&lt;font face=&quot;Times New Roman&quot;&gt;m&lt;/font&gt;组训练集和验证集" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;glass=0;strokeWidth=1;shadow=0;fontFamily=楷体;" parent="TA1hDpKXvAdj-eUrPTdJ-1" vertex="1">
-          <mxGeometry x="160" y="351" width="410" height="57" as="geometry" />
+          <mxGeometry x="150" y="351" width="430" height="57" as="geometry" />
         </mxCell>
         <mxCell id="TA1hDpKXvAdj-eUrPTdJ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;fontFamily=楷体;" parent="TA1hDpKXvAdj-eUrPTdJ-1" source="TA1hDpKXvAdj-eUrPTdJ-9" target="TA1hDpKXvAdj-eUrPTdJ-16" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -440,7 +440,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TA1hDpKXvAdj-eUrPTdJ-9" value="使用每组的训练集分别训练模型，&lt;br style=&quot;font-size: 17px;&quot;&gt;并计算每个特征对于模型的重要性" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;glass=0;strokeWidth=1;shadow=0;fontFamily=楷体;" parent="TA1hDpKXvAdj-eUrPTdJ-1" vertex="1">
-          <mxGeometry x="160" y="452" width="410" height="57" as="geometry" />
+          <mxGeometry x="150" y="452" width="430" height="57" as="geometry" />
         </mxCell>
         <mxCell id="TA1hDpKXvAdj-eUrPTdJ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;fontFamily=楷体;" parent="TA1hDpKXvAdj-eUrPTdJ-1" source="TA1hDpKXvAdj-eUrPTdJ-11" target="TA1hDpKXvAdj-eUrPTdJ-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -480,25 +480,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TA1hDpKXvAdj-eUrPTdJ-18" value="将每组训练集和测试集所对应的准确率列表（不同的个数对应一个准确率），对不同个数特征对应的准确率进行分组求平均" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;glass=0;strokeWidth=1;shadow=0;fontFamily=楷体;" parent="TA1hDpKXvAdj-eUrPTdJ-1" vertex="1">
-          <mxGeometry x="160" y="856" width="410" height="57" as="geometry" />
+          <mxGeometry x="150" y="856" width="430" height="57" as="geometry" />
         </mxCell>
         <mxCell id="TA1hDpKXvAdj-eUrPTdJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;fontFamily=楷体;" parent="TA1hDpKXvAdj-eUrPTdJ-1" source="TA1hDpKXvAdj-eUrPTdJ-20" target="TA1hDpKXvAdj-eUrPTdJ-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TA1hDpKXvAdj-eUrPTdJ-20" value="选择平均准确率最高的个数&lt;font face=&quot;Times New Roman&quot;&gt;T&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;glass=0;strokeWidth=1;shadow=0;fontFamily=楷体;" parent="TA1hDpKXvAdj-eUrPTdJ-1" vertex="1">
-          <mxGeometry x="160" y="957" width="410" height="57" as="geometry" />
+          <mxGeometry x="150" y="957" width="430" height="57" as="geometry" />
         </mxCell>
         <mxCell id="TA1hDpKXvAdj-eUrPTdJ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;fontFamily=楷体;" parent="TA1hDpKXvAdj-eUrPTdJ-1" source="TA1hDpKXvAdj-eUrPTdJ-22" target="TA1hDpKXvAdj-eUrPTdJ-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TA1hDpKXvAdj-eUrPTdJ-22" value="使用训练集所有数据训练模型，&lt;br style=&quot;font-size: 17px;&quot;&gt;并计算每个特征对于模型的重要性" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;glass=0;strokeWidth=1;shadow=0;fontFamily=楷体;align=center;" parent="TA1hDpKXvAdj-eUrPTdJ-1" vertex="1">
-          <mxGeometry x="160" y="1140" width="410" height="57" as="geometry" />
+          <mxGeometry x="150" y="1140" width="430" height="57" as="geometry" />
         </mxCell>
         <mxCell id="TA1hDpKXvAdj-eUrPTdJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;fontFamily=楷体;" parent="TA1hDpKXvAdj-eUrPTdJ-1" source="TA1hDpKXvAdj-eUrPTdJ-24" target="TA1hDpKXvAdj-eUrPTdJ-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TA1hDpKXvAdj-eUrPTdJ-24" value="排除重要程度最小的特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;glass=0;strokeWidth=1;shadow=0;fontFamily=楷体;" parent="TA1hDpKXvAdj-eUrPTdJ-1" vertex="1">
-          <mxGeometry x="160" y="1240" width="410" height="57" as="geometry" />
+          <mxGeometry x="150" y="1240" width="430" height="57" as="geometry" />
         </mxCell>
         <mxCell id="TA1hDpKXvAdj-eUrPTdJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;fontFamily=楷体;" parent="TA1hDpKXvAdj-eUrPTdJ-1" source="TA1hDpKXvAdj-eUrPTdJ-27" target="TA1hDpKXvAdj-eUrPTdJ-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -528,7 +528,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TA1hDpKXvAdj-eUrPTdJ-28" value="最终选择&lt;font face=&quot;Times New Roman&quot;&gt;T&lt;/font&gt;个特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;glass=0;strokeWidth=1;shadow=0;fontFamily=楷体;" parent="TA1hDpKXvAdj-eUrPTdJ-1" vertex="1">
-          <mxGeometry x="160" y="1490" width="410" height="57" as="geometry" />
+          <mxGeometry x="150" y="1490" width="430" height="57" as="geometry" />
         </mxCell>
         <mxCell id="TA1hDpKXvAdj-eUrPTdJ-30" value="步骤&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 17px;&quot;&gt;1&lt;/font&gt;. 确定需要的特征数目" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontFamily=楷体;" parent="TA1hDpKXvAdj-eUrPTdJ-1" vertex="1">
           <mxGeometry x="10" y="190" width="230" height="30" as="geometry" />
